@@ -1,2 +1,2 @@
 # git-commands
-Import existing folder to github 
+Make use of Git Commands to push and pull project files on github
