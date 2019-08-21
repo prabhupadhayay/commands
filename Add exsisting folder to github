@@ -1,0 +1,11 @@
+sudo apt install git-all
+git config --global user.name "User Name"
+git config --global user.email "email"
+cd <the file that has to save or commit to github >                                  => cd/Documents/API
+git init                                                                             =>Initialize git into your local computer
+git status                                                                           => check new files available to upload
+git add .                                                                            => It will add all your files 
+git commit -m "message to commit"
+git remote add origin https://github.com/prabhupadhayay/git-commands/new/master.git  => add path of github's repositery 
+git remote -v                                                                        => check remote path, username and password
+git push origin master                                                               =>now push that code to github's repositery
