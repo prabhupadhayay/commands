@@ -1,0 +1,9 @@
+git clone https://github.com/prabhupadhayay/git-commands/new/master.git   =>the url of github Repository that to be cloned
+git status
+git commit -a -m "message"                                                => -a is used for that add all 
+git config --global user.name "User Name"
+git config --global user.email "email"
+git config --list
+git log                                                                   =>show the list of user and origin
+git remote -v    
+git push origin master
