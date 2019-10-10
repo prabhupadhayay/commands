@@ -1,7 +1,9 @@
 Steps to switch between different branches on Github
-If another_branch already exists locally and you are not on this branch,
+
+a) If another_branch already exists locally and you are not on this branch,
 then git checkout another_branch switches to the branch.
-If another_branch does not exist but origin/another_branch does,
+
+b)If another_branch does not exist but origin/another_branch does,
 then git checkout another_branch is equivalent to git checkout -b another_branch origin/another_branch; 
 git branch -u origin/another_branch.
 That's to create another_branch from origin/another_branch and set origin/another_branch as the upstream of another_branch
