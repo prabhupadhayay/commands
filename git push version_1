@@ -1,0 +1,4 @@
+git remote add origin path we have copied from github repo.
+git add .
+git commit -m "message"
+git push -f origin HEAD:version_1  where version_1 is the name of that another branch
