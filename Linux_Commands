@@ -2,6 +2,11 @@ Download .deb package and get its path copied
 sudo dpkg -i /path/to/deb/file
 sudo apt-get install -f
 
+
 Uninstall packages in ubuntu 
 dpkg --list                         (get list of all the current installed programs in ubuntu.)
 sudo apt-get --purge remove atom    (where atom is the name of program that is to be deleted.)
+
+
+Change read write permissions of a directory in linux
+sudo chmod -R 777 /var/www/html
