@@ -1,0 +1,5 @@
+ques:Is there any command to deinit Git?
+ans: (rm -rf .git)      
+
+to initalize the git in a repo.
+git init
