@@ -3,3 +3,8 @@ ans: (rm -rf .git)
 
 to initalize the git in a repo.
 git init
+
+
+For Windows
+deinit git -   rmdir .git
+if repo has subfolders -  rmdir /s .git
