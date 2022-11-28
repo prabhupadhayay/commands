@@ -1,0 +1,3 @@
+cp -R foldername/ newfoldername/
+
+cp -R master_foler/ newfolder/
